@@ -1,0 +1,30 @@
+{
+  "name": "beerproxy",
+  "version": "0.1.0",
+  "description": "A simple proxy for beermenus.com",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alanguir/beerproxy.git"
+  },
+  "keywords": [
+    "beer",
+    "node",
+    "proxy",
+    "express"
+  ],
+  "author": "Alan Languirand <alan@13protons.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanguir/beerproxy/issues"
+  },
+  "homepage": "https://github.com/alanguir/beerproxy",
+  "dependencies": {
+    "express": "^4.13.0",
+    "redpantry": "^0.7.10",
+    "request": "^2.58.0"
+  }
+}
